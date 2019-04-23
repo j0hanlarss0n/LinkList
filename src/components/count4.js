@@ -7,7 +7,7 @@ function CountButton4({ num }) {
     const [count, setCount] = useState(num);
 
     return (
-        <button onClick={() => setCount(count + 1)}>
+        <button onClick={() => setCount(count + 2)}>
             {count}
         </button>
     );
